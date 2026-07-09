@@ -42,7 +42,6 @@ Also working with: REST API Design · JWT & OAuth 2.0 · Role-Based Access Contr
 Fetches GitHub repositories and visualizes file-dependency graphs with force-directed layouts. AST-based parsing runs on worker threads for CPU-heavy analysis, with circular-dependency detection, impact analysis, and an AI chat interface for natural-language queries over the codebase.
 `Next.js` `TypeScript` `React Flow` `Node.js` `MongoDB`
 
-<a href="https://github.com/rishabhx29/Traceon"><img src="https://github-readme-stats.vercel.app/api/pin/?username=rishabhx29&repo=Traceon&theme=tokyonight&hide_border=true" alt="Traceon repo card"/></a>
 
 **EduPulse** — Production-Grade Learning Management System
 Full-stack LMS with dual-token JWT auth and Google OAuth, role-based access for students and instructors, a Course → Section → Lesson data hierarchy, Stripe-powered enrollment with webhook handling, and Cloudinary-backed media uploads.
@@ -54,14 +53,8 @@ Full-stack LMS with dual-token JWT auth and Google OAuth, role-based access for 
 Structured DSA roadmaps with XP/leveling, daily streak tracking, and a real-time global leaderboard backed by REST APIs. Responsive, animation-rich frontend with Tailwind CSS and Framer Motion, deployed with CI/CD via Vercel and GitHub.
 `Next.js` `React.js` `Node.js` `MongoDB` `Tailwind CSS`
 
-<a href="https://github.com/rishabhx29/AlgoForge"><img src="https://github-readme-stats.vercel.app/api/pin/?username=rishabhx29&repo=AlgoForge&theme=tokyonight&hide_border=true" alt="AlgoForge repo card"/></a>
 
-### GitHub Stats
 
-<p align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=rishabhx29&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Rishabh's GitHub Stats" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rishabhx29&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
 
 ---
 
