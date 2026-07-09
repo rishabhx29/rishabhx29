@@ -47,7 +47,6 @@ Fetches GitHub repositories and visualizes file-dependency graphs with force-dir
 Full-stack LMS with dual-token JWT auth and Google OAuth, role-based access for students and instructors, a Course → Section → Lesson data hierarchy, Stripe-powered enrollment with webhook handling, and Cloudinary-backed media uploads.
 `Next.js` `Node.js` `Express.js` `MySQL/MongoDB` `Redux Toolkit` `Stripe`
 
-[Live Demo](#) · [GitHub](#) — *add your links here*
 
 **[AlgoForge 2.0](https://github.com/rishabhx29/AlgoForge)** — Gamified DSA Learning Platform
 Structured DSA roadmaps with XP/leveling, daily streak tracking, and a real-time global leaderboard backed by REST APIs. Responsive, animation-rich frontend with Tailwind CSS and Framer Motion, deployed with CI/CD via Vercel and GitHub.
