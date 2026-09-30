@@ -1,17 +1,17 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3500&pause=900&color=FAFAFA&center=true&vCenter=true&width=640&height=90&lines=hey%2C+I%27m+Rishabh+Tripathi;full-stack+engineer+%E2%80%A2+systems+architect" />
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3500&pause=900&color=18181B&center=true&vCenter=true&width=640&height=90&lines=hey%2C+I%27m+Rishabh+Tripathi;full-stack+engineer+%E2%80%A2+systems+architect" />
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3500&pause=900&color=18181B&center=true&vCenter=true&width=640&height=90&lines=hey%2C+I%27m+Rishabh+Tripathi;full-stack+engineer+%E2%80%A2+systems+architect" alt="Typing SVG" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Caveat&size=52&duration=3000&pause=800&color=FAFAFA&center=true&vCenter=true&width=600&height=80&lines=hey%2C+I%27m+Rishabh+Tripathi;I+build+things+that+ship" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Caveat&size=52&duration=3000&pause=800&color=18181B&center=true&vCenter=true&width=600&height=80&lines=hey%2C+I%27m+Rishabh+Tripathi;I+build+things+that+ship" />
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&size=52&duration=3000&pause=800&color=18181B&center=true&vCenter=true&width=600&height=80&lines=hey%2C+I%27m+Rishabh+Tripathi;I+build+things+that+ship" alt="Typing SVG" />
 </picture>
 
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2600&pause=600&color=818CF8&center=true&vCenter=true&width=620&height=40&lines=building+Traceon+%E2%80%A2+VeloKey+%E2%80%A2+AlgoForge+%E2%80%A2+Adaptive" />
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2600&pause=600&color=4F46E5&center=true&vCenter=true&width=620&height=40&lines=building+Traceon+%E2%80%A2+VeloKey+%E2%80%A2+AlgoForge+%E2%80%A2+Adaptive" />
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2600&pause=600&color=4F46E5&center=true&vCenter=true&width=620&height=40&lines=building+Traceon+%E2%80%A2+VeloKey+%E2%80%A2+AlgoForge+%E2%80%A2+Adaptive" alt="subtitle" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Caveat&size=22&duration=2500&pause=600&color=818CF8&center=true&vCenter=true&width=560&height=40&lines=full-stack+engineer+%E2%80%A2+AI+systems;Traceon+%E2%80%A2+VeloKey+%E2%80%A2+AlgoForge+%E2%80%A2+Adaptive" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Caveat&size=22&duration=2500&pause=600&color=4F46E5&center=true&vCenter=true&width=560&height=40&lines=full-stack+engineer+%E2%80%A2+AI+systems;Traceon+%E2%80%A2+VeloKey+%E2%80%A2+AlgoForge+%E2%80%A2+Adaptive" />
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&size=22&duration=2500&pause=600&color=4F46E5&center=true&vCenter=true&width=560&height=40&lines=full-stack+engineer+%E2%80%A2+AI+systems;Traceon+%E2%80%A2+VeloKey+%E2%80%A2+AlgoForge+%E2%80%A2+Adaptive" alt="subtitle" />
 </picture>
 
 </div>
