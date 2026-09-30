@@ -1,177 +1,232 @@
 <div align="center">
 
-# Rishabh Tripathi
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3500&pause=900&color=FAFAFA&center=true&vCenter=true&width=640&height=90&lines=hey%2C+I%27m+Rishabh+Tripathi;full-stack+engineer+%E2%80%A2+systems+architect" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3500&pause=900&color=18181B&center=true&vCenter=true&width=640&height=90&lines=hey%2C+I%27m+Rishabh+Tripathi;full-stack+engineer+%E2%80%A2+systems+architect" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3500&pause=900&color=18181B&center=true&vCenter=true&width=640&height=90&lines=hey%2C+I%27m+Rishabh+Tripathi;full-stack+engineer+%E2%80%A2+systems+architect" alt="Typing SVG" />
+</picture>
 
-**Software Engineer &middot; Systems &amp; Web Architect &middot; Open-Source Project Admin**
+<br/>
 
-Pune, India &nbsp;|&nbsp; VIT Chennai &nbsp;|&nbsp; B.Tech Computer Science (AI &amp; Robotics)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2600&pause=600&color=818CF8&center=true&vCenter=true&width=620&height=40&lines=building+Traceon+%E2%80%A2+VeloKey+%E2%80%A2+AlgoForge+%E2%80%A2+Adaptive" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2600&pause=600&color=4F46E5&center=true&vCenter=true&width=620&height=40&lines=building+Traceon+%E2%80%A2+VeloKey+%E2%80%A2+AlgoForge+%E2%80%A2+Adaptive" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2600&pause=600&color=4F46E5&center=true&vCenter=true&width=620&height=40&lines=building+Traceon+%E2%80%A2+VeloKey+%E2%80%A2+AlgoForge+%E2%80%A2+Adaptive" alt="subtitle" />
+</picture>
 
-<br />
+</div>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-rishabhx29.vercel.app-09090b?style=for-the-badge&logo=vercel&logoColor=white&labelColor=18181b)](https://rishabhx29.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-rishabhtripathi-09090b?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=18181b)](https://linkedin.com/in/rishabhtripathi)
-[![X (Twitter)](https://img.shields.io/badge/X-@RishabhTri8805-09090b?style=for-the-badge&logo=x&logoColor=white&labelColor=18181b)](https://x.com/RishabhTri8805)
-[![Email](https://img.shields.io/badge/Email-rishabh.j.tripathi2903@gmail.com-09090b?style=for-the-badge&logo=gmail&logoColor=white&labelColor=18181b)](mailto:rishabh.j.tripathi2903@gmail.com)
+<br/>
 
-<br /><br />
+---
+
+<div align="center">
 
 ```
-"Simplicity is prerequisite for reliability." — Edsger W. Dijkstra
+ ╭───────────────────────────────────────────────────────────╮
+ │  I turn ideas into products people actually use —         │
+ │  clean architecture, AI-native tooling, offline-first     │
+ │  systems, and code that survives production.              │
+ ╰───────────────────────────────────────────────────────────╯
 ```
 
 </div>
 
 ---
 
-### Executive Overview
+### about
 
-Undergraduate in Computer Science and Engineering with specialization in AI & Robotics at Vellore Institute of Technology (VIT), Chennai (CGPA: 9.01 / 10.00). Focus lies at the intersection of developer tooling, compiler/AST code analysis, distributed web systems, and offline-first edge AI.
+**Full-stack software engineer** based in **Pune, India**. B.Tech in Computer Science (AI & Robotics) from VIT Chennai. I ship fast and obsess over clean architecture — developer tooling, AST-driven code intelligence, distributed web systems, and offline-first edge AI.
 
-- **Software Developer Intern at Ecera System Private Ltd.** (June 2026 – August 2026): Engineered end-to-end recruitment pipelines for an enterprise Job Portal. Designed role-based access control (RBAC), automated Linux VPS deployment pipelines with Jenkins CI/CD, and improved LMS frontend accessibility standards.
-- **Project Admin at Social Summer of Code (SSoC)** (April 2026 – August 2026): Directed engineering workflows and architectural roadmaps for open-source flagships *Traceon* and *AlgoForge*. Mentored 10+ software contributors, led technical code reviews, and enforced strict linting and PR standards.
-- **Open-Source Contributor at GirlScript Summer of Code (GSSoC)** (April 2026 – August 2026): Contributed to high-throughput Next.js 15 (App Router) and React 18 production systems (*Editron*, *Commitpulse*).
-- **Hackathons & Challenges**: Built offline P2P RAG system (*RescueMesh*) for the Google Gemma AI Buildathon; developer for Smart India Hackathon (SIH 2025) prototype.
+- **Software Developer Intern @ Ecera System** — built a Job Portal from scratch (RBAC, secure auth, Jenkins CI/CD on a Linux VPS); contributed accessibility and real-time dashboard features to an LMS platform.
+- **Project Admin @ SSoC** — direct architecture and code review for *Traceon* and *AlgoForge*, mentor contributors, hold the quality bar.
+- **Contributor @ GSSoC** — shipped features across *Editron* and *Commitpulse* during GirlScript Summer of Code.
+
+[![portfolio](https://img.shields.io/badge/portfolio-rishabhx29.me-0B0B0F?style=for-the-badge&logo=vercel&logoColor=white)](https://www.rishabhx29.me/)
+[![resume](https://img.shields.io/badge/resume-0B0B0F?style=for-the-badge&logo=readthedocs&logoColor=white)](https://www.rishabhx29.me/resume)
 
 ---
 
-### Architecture &amp; Flagship Systems
+### stack
 
 <table>
-  <thead>
-    <tr>
-      <th width="50%" align="left">Project &amp; Architecture</th>
-      <th width="50%" align="left">Key Capabilities &amp; Technical Stack</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td valign="top">
-        <b>Traceon</b> &mdash; Codebase Intelligence Engine<br />
-        <a href="https://traceon.vercel.app"><code>[Live Platform]</code></a> &bull;
-        <a href="https://github.com/rishabhx29/Traceon"><code>[Source Code]</code></a>
-        <br /><br />
-        An AST-driven static analysis platform transforming repositories into queryable knowledge graphs and developer DNA profiles.
-      </td>
-      <td valign="top">
-        <ul>
-          <li>Parses full ASTs via the <b>TypeScript Compiler API</b> to generate force-directed dependency maps.</li>
-          <li>Algorithms for circular dependency detection and cross-module blast radius scoring.</li>
-          <li>RAG-backed codebase chat powered by Groq Llama 3.3 70B with 24-hour cache invalidation.</li>
-        </ul>
-        <code>Next.js 16</code> &middot; <code>TypeScript</code> &middot; <code>React Flow</code> &middot; <code>Groq Llama 3.3</code> &middot; <code>MongoDB</code>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">
-        <b>RescueMesh</b> &mdash; Offline P2P Disaster Intelligence<br />
-        <a href="https://github.com/rishabhx29/RescueMesh"><code>[Source Code]</code></a>
-        <br /><br />
-        A zero-cloud, resilient mesh network enabling distributed emergency communication and contextual on-device triage. Built for Google Gemma AI Buildathon.
-      </td>
-      <td valign="top">
-        <ul>
-          <li>Peer-to-peer ad-hoc discovery and communication over Wi-Fi Direct with zero internet connection.</li>
-          <li>On-device RAG engine pairing <b>Google Gemma</b> with <b>ObjectBox HNSW vector search</b>.</li>
-          <li>Indexes 56 verified emergency and medical survival playbooks for instant sub-second local retrieval.</li>
-        </ul>
-        <code>Flutter</code> &middot; <code>Google Gemma</code> &middot; <code>ObjectBox HNSW</code> &middot; <code>Wi-Fi Direct</code> &middot; <code>Dart</code>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">
-        <b>AlgoForge</b> &mdash; Algorithmic Mastery &amp; Progress Platform<br />
-        <a href="https://algo-forge-2-0.vercel.app"><code>[Live Platform]</code></a> &bull;
-        <a href="https://github.com/rishabhx29/AlgoForge"><code>[Source Code]</code></a>
-        <br /><br />
-        A structured learning and consistency system engineered for technical interview preparation and competitive programming tracking.
-      </td>
-      <td valign="top">
-        <ul>
-          <li>Real-time telemetry tracking problem difficulty curves, streak consistency, and topic heatmaps.</li>
-          <li>Curated interactive roadmaps across dynamic programming, trees, and system design patterns.</li>
-          <li>Decoupled REST API backend featuring OAuth 2.0 authentication and role-based access.</li>
-        </ul>
-        <code>React</code> &middot; <code>Next.js</code> &middot; <code>Node.js</code> &middot; <code>Tailwind CSS</code> &middot; <code>MongoDB</code>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">
-        <b>VeriCred</b> &mdash; Decentralized Credential Verification<br />
-        <a href="https://vericred-tpfs.vercel.app/"><code>[Live Platform]</code></a> &bull;
-        <a href="https://github.com/rishabhx29/vericred"><code>[Source Code]</code></a>
-        <br /><br />
-        An anti-tamper academic verification protocol leveraging immutable smart contracts and distributed document hashing.
-      </td>
-      <td valign="top">
-        <ul>
-          <li>Mints non-transferable <b>Soulbound Tokens (ERC-721)</b> representing accredited degrees and certificates.</li>
-          <li>Sub-5-second verification pipeline via read-only smart contract queries (VALID / TAMPERED / REVOKED).</li>
-          <li>AI-assisted anomaly scanner flagging forged signatures, GPA inconsistencies, and metadata discrepancies.</li>
-        </ul>
-        <code>Solidity</code> &middot; <code>Next.js</code> &middot; <code>Supabase</code> &middot; <code>IPFS</code> &middot; <code>OpenZeppelin</code>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">
-        <b>VeloKey</b> &mdash; Tactile Typing Engine &amp; Service<br />
-        <a href="https://github.com/rishabhx29/velokey"><code>[Source Code]</code></a>
-        <br /><br />
-        A minimalist typing analysis tool pairing low-latency browser input processing with procedural audio feedback.
-      </td>
-      <td valign="top">
-        <ul>
-          <li>Synthesizes real-time mechanical switch acoustics using the native browser Web Audio API.</li>
-          <li>Microsecond-accurate WPM, raw speed, consistency rating, and error classification algorithms.</li>
-          <li>Real-time multiplayer race mode coordinated over a lightweight WebSocket microservice.</li>
-        </ul>
-        <code>TypeScript</code> &middot; <code>Next.js</code> &middot; <code>Web Audio API</code> &middot; <code>Web Haptics</code> &middot; <code>WebSockets</code>
-      </td>
-    </tr>
-  </tbody>
+<tr>
+<th align="left" width="33%">every day</th>
+<th align="left" width="34%">often</th>
+<th align="left" width="33%">when it fits</th>
+</tr>
+<tr>
+<td valign="top">
+
+TypeScript · Python · Next.js · FastAPI · PostgreSQL · Docker · Git · Claude Code
+
+</td>
+<td valign="top">
+
+React · Tailwind · Supabase · Redis · Kubernetes · Prometheus · Vercel · Vue
+
+</td>
+<td valign="top">
+
+Java · Django · Spring Boot · LangChain · Ollama · Firebase · MySQL
+
+</td>
+</tr>
 </table>
 
----
-
-### Technical Capabilities
-
-```
-Core Languages       : TypeScript, JavaScript, Python, C++, Go, Java, SQL, Solidity
-Frontend Frameworks  : Next.js (App Router), React, Tailwind CSS, React Flow, Redux Toolkit
-Backend & Runtime    : Node.js, Express, Fastify, REST APIs, GraphQL, WebSockets, JWT / OAuth 2.0
-Data & Storage       : PostgreSQL, MongoDB, Supabase, Redis, ObjectBox (Vector DB / HNSW), IPFS
-Cloud & DevOps       : Docker, Linux VPS Administration, Jenkins CI/CD, GitHub Actions, Vercel
-Systems & Tooling    : TypeScript Compiler API (AST), Git, Postman, Vite, Linux Shell Scripting
-AI & Machine Learning: Small Language Models (Google Gemma), RAG Architectures, Vector Embeddings, Groq
-```
+<br/>
 
 ---
 
-### Engineering Metrics
+### projects
+
+<br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**<img src="https://img.shields.io/badge/%20-0B0B0F?style=flat-square&logo=nextdotjs&logoColor=white" height="16" /> Traceon** &nbsp;`10 ★`<br/>
+`Next.js 16 · TypeScript · React Flow · MongoDB · Groq`
+
+Unified codebase analysis engine — parses full ASTs with the TypeScript Compiler API, renders force-directed dependency graphs, and ships a RAG-backed "profile DNA" assistant.
+
+[![live](https://img.shields.io/badge/live-0B0B0F?style=flat-square&logo=vercel&logoColor=white)](https://traceon.vercel.app) &nbsp;
+[![code](https://img.shields.io/badge/code-0B0B0F?style=flat-square&logo=github&logoColor=white)](https://github.com/rishabhx29/Traceon)
+
+</td>
+<td width="50%" valign="top">
+
+**<img src="https://img.shields.io/badge/%20-0B0B0F?style=flat-square&logo=react&logoColor=white" height="16" /> AlgoForge** &nbsp;`10 ★`<br/>
+`React · Next.js · Node.js · MongoDB · Tailwind`
+
+Gamified DSA mastery platform — structured roadmaps, live leaderboards, streak telemetry, and topic heatmaps for interview prep and competitive programming.
+
+[![live](https://img.shields.io/badge/live-0B0B0F?style=flat-square&logo=vercel&logoColor=white)](https://algo-forge-2-0.vercel.app) &nbsp;
+[![code](https://img.shields.io/badge/code-0B0B0F?style=flat-square&logo=github&logoColor=white)](https://github.com/rishabhx29/AlgoForge)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**<img src="https://img.shields.io/badge/%20-0B0B0F?style=flat-square&logo=typescript&logoColor=white" height="16" /> VeloKey** &nbsp;`1 ★`<br/>
+`TypeScript · Web Audio API · WebSockets · Next.js`
+
+Minimalist, distraction-free typing performance platform — real-time telemetry, procedurally synthesized switch acoustics, and live multiplayer races.
+
+[![live](https://img.shields.io/badge/live-0B0B0F?style=flat-square&logo=vercel&logoColor=white)](https://velokey.vercel.app) &nbsp;
+[![code](https://img.shields.io/badge/code-0B0B0F?style=flat-square&logo=github&logoColor=white)](https://github.com/rishabhx29/velokey)
+
+</td>
+<td width="50%" valign="top">
+
+**<img src="https://img.shields.io/badge/%20-0B0B0F?style=flat-square&logo=langchain&logoColor=white" height="16" /> Adaptive** &nbsp;`in build`<br/>
+`TypeScript · Next.js · LLM · RAG`
+
+Contextual AI portfolio and dynamic resume system — tailors itself to a specific role or company, generating a targeted narrative instead of one static CV.
+
+[![code](https://img.shields.io/badge/code-0B0B0F?style=flat-square&logo=github&logoColor=white)](https://github.com/rishabhx29/Adaptiv)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**<img src="https://img.shields.io/badge/%20-0B0B0F?style=flat-square&logo=python&logoColor=white" height="16" /> edgemem**<br/>
+`Python · Qdrant Edge`
+
+Disagreement-durable offline-first edge memory engine. A claim is an attributed assertion — never an overwritten fact — so agents can reason over a memory store that survives being wrong.
+
+[![code](https://img.shields.io/badge/code-0B0B0F?style=flat-square&logo=github&logoColor=white)](https://github.com/rishabhx29/edgemem)
+
+</td>
+<td width="50%" valign="top">
+
+**<img src="https://img.shields.io/badge/%20-0B0B0F?style=flat-square&logo=flutter&logoColor=white" height="16" /> RescueMesh**<br/>
+`Flutter · Google Gemma · ObjectBox HNSW · Wi-Fi Direct`
+
+Offline P2P disaster-response mesh built for the Gemma AI Buildathon — zero cloud, on-device RAG triage across 56 verified emergency playbooks.
+
+[![code](https://img.shields.io/badge/code-0B0B0F?style=flat-square&logo=github&logoColor=white)](https://github.com/rishabhx29/RescueMesh)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<p align="center">
+  <a href="https://github.com/rishabhx29?tab=repositories">browse all repositories &rarr;</a>
+</p>
+
+---
+
+### open source
+
+| | |
+| --- | --- |
+| <img src="https://img.shields.io/badge/SSoC-project%20admin-0B0B0F?style=flat-square&logo=github&logoColor=white" /> | Architecture direction, code review, and mentorship across **Traceon** and **AlgoForge**. |
+| <img src="https://img.shields.io/badge/GSSoC-contributor-0B0B0F?style=flat-square&logo=github&logoColor=white" /> | Feature work on **Editron** and **Commitpulse** during GirlScript Summer of Code. |
+
+---
+
+### stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rishabhx29&show_icons=true&theme=dark&bg_color=09090b&border_color=27272a&title_color=f4f4f5&text_color=a1a1aa&icon_color=71717a&hide_border=false" height="155" alt="GitHub Metrics" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rishabhx29&layout=compact&theme=dark&bg_color=09090b&border_color=27272a&title_color=f4f4f5&text_color=a1a1aa&hide_border=false" height="155" alt="Top Languages" />
+
+<img src="https://github-stats-extended.vercel.app/api?username=rishabhx29&show_icons=true&hide_border=true&bg_color=0B0B0F&title_color=FAFAFA&text_color=A1A1AA&icon_color=818CF8&rank_icon=github&include_all_commits=true&count_private=true" height="165" alt="GitHub Stats" />
+&nbsp;
+<img src="https://github-stats-extended.vercel.app/api/top-langs?username=rishabhx29&layout=compact&hide_border=true&bg_color=0B0B0F&title_color=FAFAFA&text_color=A1A1AA&langs_count=8&icon_color=818CF8" height="165" alt="Top Languages" />
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com?user=rishabhx29&theme=dark&background=0B0B0F&border=27272A&stroke=A1A1AA&ring=818CF8&fire=F59E0B&currStreakLabel=A1A1AA&currStreakNum=FAFAFA&sideNums=FAFAFA&sideLabels=A1A1AA&dates=52525B&hide_border=true" alt="Contribution Streak" />
+
 </div>
 
-<br />
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=rishabhx29&theme=dark&background=09090b&border=27272a&stroke=71717a&ring=71717a&fire=a1a1aa&currStreakLabel=a1a1aa&sideNums=f4f4f5&sideLabels=71717a&dates=71717a" alt="Contribution Streak" />
-</div>
-
 ---
 
-### Verified Coordinates
-
-- **Portfolio**: [rishabhx29.vercel.app](https://rishabhx29.vercel.app)
-- **LinkedIn**: [linkedin.com/in/rishabhtripathi](https://linkedin.com/in/rishabhtripathi)
-- **X (Twitter)**: [x.com/RishabhTri8805](https://x.com/RishabhTri8805)
-- **Email**: [rishabh.j.tripathi2903@gmail.com](mailto:rishabh.j.tripathi2903@gmail.com)
-- **Location**: Pune, India / Chennai, India
-
-<br />
+### find me
 
 <div align="center">
-  <sub>Engineered by Rishabh Tripathi &middot; Built with semantic Markdown</sub>
+
+<a href="https://www.rishabhx29.me/">
+  <img src="https://img.shields.io/badge/portfolio-0B0B0F?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/rishabh-tripathi-728a77317">
+  <img src="https://img.shields.io/badge/linkedin-0B0B0F?style=for-the-badge" />
+</a>
+&nbsp;
+<a href="https://x.com/RishabhTri8805">
+  <img src="https://img.shields.io/badge/x_twitter-0B0B0F?style=for-the-badge&logo=x&logoColor=white" />
+</a>
+&nbsp;
+<a href="mailto:rishabh.j.tripathi2903@gmail.com">
+  <img src="https://img.shields.io/badge/email-0B0B0F?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://discord.com/users/jiraya_sensei2139">
+  <img src="https://img.shields.io/badge/discord-0B0B0F?style=for-the-badge&logo=discord&logoColor=white" />
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+<sub>
+<img src="https://komarev.com/ghpvc/?username=rishabhx29&label=views&color=818CF8&style=flat-square" />
+&nbsp;·&nbsp;
+<img src="https://img.shields.io/github/followers/rishabhx29?style=flat-square&label=followers&color=818CF8&labelColor=0B0B0F" />
+&nbsp;·&nbsp;
+<img src="https://img.shields.io/github/stars/rishabhx29?style=flat-square&label=stars&color=818CF8&labelColor=0B0B0F" />
+</sub>
+</div>
+
+<br/>
+
+<div align="center">
+<sub>built by Rishabh Tripathi · <a href="https://www.rishabhx29.me/">rishabhx29.me</a></sub>
 </div>
