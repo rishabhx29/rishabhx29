@@ -1,0 +1,58 @@
+name: Refresh profile README
+
+# The generated blocks in README.md are rewritten from the GitHub API, so a
+# newly merged pull request shows up on the profile without anyone editing
+# the README by hand.
+
+on:
+  schedule:
+    # 06:17 UTC daily. Off the hour on purpose, so this run does not pile onto
+    # the busiest minute of the hour for every scheduled workflow on GitHub.
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/update_profile.py"
+      - ".github/workflows/update-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    name: Regenerate README blocks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh the generated blocks
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: rishabhx29
+        run: python .github/scripts/update_profile.py
+
+      - name: Commit the result
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No change to commit"
+            exit 0
+          fi
+          git commit -m "docs: refresh generated README blocks"
+          git push
