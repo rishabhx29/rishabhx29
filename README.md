@@ -9,9 +9,17 @@
     B.Tech in Computer Science &amp; Engineering (AI &amp; Robotics) at VIT Chennai, CGPA 9.01/10.
   </p>
 
-  <p>
-    <img src="https://readme-typing-svg.demolib.com?font=Fira+Code&weight=600&size=21&pause=1400&color=818CF8&center=true&vCenter=true&width=660&height=56&lines=Building+local-first+and+distributed+systems;Rust+%E2%80%A2+TypeScript+%E2%80%A2+Python;Shipping+pull+requests+to+Mantine+and+T3+Code" alt="Rishabh Tripathi" />
-  </p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Caveat&size=52&duration=3000&pause=800&color=FAFAFA&center=true&vCenter=true&width=600&height=80&lines=hey%2C+I%27m+Rishabh+Tripathi;I+build+systems+that+ship" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Caveat&size=52&duration=3000&pause=800&color=18181B&center=true&vCenter=true&width=600&height=80&lines=hey%2C+I%27m+Rishabh+Tripathi;I+build+systems+that+ship" />
+    <img src="https://readme-typing-svg.demolab.com?font=Caveat&size=52&duration=3000&pause=800&color=FAFAFA&center=true&vCenter=true&width=600&height=80&lines=hey%2C+I%27m+Rishabh+Tripathi;I+build+systems+that+ship" alt="Rishabh Tripathi" />
+  </picture>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Caveat&size=22&duration=2500&pause=600&color=818CF8&center=true&vCenter=true&width=560&height=40&lines=rust+%E2%80%A2+typescript+%E2%80%A2+python;local-first+and+offline+systems;open+source+contributor" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Caveat&size=22&duration=2500&pause=600&color=4F46E5&center=true&vCenter=true&width=560&height=40&lines=rust+%E2%80%A2+typescript+%E2%80%A2+python;local-first+and+offline+systems;open+source+contributor" />
+    <img src="https://readme-typing-svg.demolab.com?font=Caveat&size=22&duration=2500&pause=600&color=818CF8&center=true&vCenter=true&width=560&height=40&lines=rust+%E2%80%A2+typescript+%E2%80%A2+python;local-first+and+offline+systems;open+source+contributor" alt="Rust, TypeScript, Python" />
+  </picture>
 
   <p>
     <a href="https://www.rishabhx29.me/"><img src="https://img.shields.io/badge/Portfolio-rishabhx29.me-818CF8?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
@@ -73,7 +81,7 @@ I only take pull requests against projects I would happily use myself. The list 
 ## Toolbelt
 
 <p>
-  <img src="https://cdn.simpleicons.org/rust/000000?logo=rust" alt="Rust" width="30" title="Rust" />
+  <img src="https://cdn.simpleicons.org/rust/000000" alt="Rust" width="30" title="Rust" />
   <img src="https://cdn.simpleicons.org/typescript/3178C6" alt="TypeScript" width="30" title="TypeScript" />
   <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" width="30" title="JavaScript" />
   <img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" width="30" title="Python" />
@@ -90,15 +98,16 @@ I only take pull requests against projects I would happily use myself. The list 
   <img src="https://cdn.simpleicons.org/mongodb/47A248" alt="MongoDB" width="30" title="MongoDB" />
   <img src="https://cdn.simpleicons.org/sqlite/003B57" alt="SQLite" width="30" title="SQLite" />
   <img src="https://cdn.simpleicons.org/redis/DC382D" alt="Redis" width="30" title="Redis" />
-  <img src="https://cdn.simpleicons.org/amazonaws/232F3E" alt="AWS" width="30" title="AWS" />
+  <img src="https://cdn.simpleicons.org/kubernetes/326CE5" alt="Kubernetes" width="30" title="Kubernetes" />
   <img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" width="30" title="Docker" />
   <img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" width="30" title="GitHub Actions" />
+  <img src="https://cdn.simpleicons.org/leetcode/FFA116" alt="LeetCode" width="30" title="LeetCode" />
 </p>
 
 **Languages** Rust, TypeScript, Python, C++, Kotlin, Java, SQL
-**Backend** Node.js, FastAPI, Django/DRF, Express, REST, WebSockets, gRPC
+**Backend** Node.js, FastAPI, Django/DRF, Express, REST, WebSockets
 **Data** PostgreSQL, MongoDB, SQLite, DynamoDB, Redis, Qdrant, vector search with hybrid RRF
-**Cloud** AWS (Lambda, API Gateway, SQS, S3, Cognito, DynamoDB, Bedrock), Docker, GitHub Actions, Jenkins
+**Cloud** AWS (Lambda, API Gateway, SQS, S3, Cognito, DynamoDB, Bedrock), Docker, Kubernetes, GitHub Actions, Jenkins
 **Practices** write-ahead logs, conflict detection and escalation, sharding, caching with TTL, idempotency, backpressure, rate limiting, JWT, OAuth 2.0, RBAC, RLS
 
 ## Numbers
