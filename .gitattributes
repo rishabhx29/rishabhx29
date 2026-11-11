@@ -1,0 +1,5 @@
+# Keep line endings stable across Windows and the Linux runner.
+* text=auto eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.md  text eol=lf
