@@ -54,9 +54,14 @@ FEATURED = [
         "stack": "Python, Qdrant Edge, WebSockets",
     },
     {
-        "repo": "lecturelens",
-        "blurb": "Serverless study companion for lecture PDFs, built as microservices on AWS",
-        "stack": "AWS Lambda, API Gateway, SQS, DynamoDB",
+        "repo": "Traceon",
+        "blurb": "Codebase analyzer that parses full ASTs and renders interactive dependency graphs",
+        "stack": "Next.js, TypeScript, React Flow, MongoDB",
+    },
+    {
+        "repo": "velokey",
+        "blurb": "Real-time multiplayer typing races over WebSockets, with server-side anti-cheat",
+        "stack": "Next.js, TypeScript, PartyKit, Web Audio",
     },
 ]
 
@@ -72,16 +77,6 @@ WATCHED = [
         "repo": "pingdotgg/t3code",
         "label": "T3 Code",
         "note": "Theo Browne's AI coding agent",
-    },
-    {
-        "repo": "piyushdotcomm/Editron",
-        "label": "Editron",
-        "note": "Browser-based IDE, 114 forks",
-    },
-    {
-        "repo": "fiedri/awesome-android-apps",
-        "label": "awesome-android-apps",
-        "note": "Curated list of open source Android apps",
     },
 ]
 

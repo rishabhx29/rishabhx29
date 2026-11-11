@@ -22,6 +22,7 @@
   </picture>
 
   <p>
+    <a href="https://github.com/rishabhx29/rishabhx29/blob/main/resume.pdf" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Resume-Open%20PDF-FFA116?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume" /></a>
     <a href="https://www.rishabhx29.me/"><img src="https://img.shields.io/badge/Portfolio-rishabhx29.me-818CF8?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
     <a href="https://linkedin.com/in/rishabh-tripathi-728a77317"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="https://github.com/rishabhx29"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
@@ -47,7 +48,8 @@ I like problems where the constraint is the system, not the feature. Three thing
 | --- | --- | --- | --- |
 | [tessera](https://github.com/rishabhx29/tessera) | Local-first search engine that OCRs and embeds every image on your machine | Rust, Tauri, ONNX Runtime, SQLite | 1 |
 | [edgemem](https://github.com/rishabhx29/edgemem) | Disagreement-durable edge memory engine, where a claim is an assertion and never an overwritten fact | Python, Qdrant Edge, WebSockets | 1 |
-| [lecturelens](https://github.com/rishabhx29/lecturelens) | Serverless study companion for lecture PDFs, built as microservices on AWS | AWS Lambda, API Gateway, SQS, DynamoDB | 1 |
+| [Traceon](https://github.com/rishabhx29/Traceon) | Codebase analyzer that parses full ASTs and renders interactive dependency graphs | Next.js, TypeScript, React Flow, MongoDB | 10 |
+| [velokey](https://github.com/rishabhx29/velokey) | Real-time multiplayer typing races over WebSockets, with server-side anti-cheat | Next.js, TypeScript, PartyKit, Web Audio | 1 |
 <!-- PROJECTS:END -->
 
 ## Open source contributions
@@ -59,23 +61,18 @@ I only take pull requests against projects I would happily use myself. The list 
 | --- | --- | --- |
 | [Mantine](https://github.com/mantinedev/mantine) | React component library, 32k stars | 3 |
 | [T3 Code](https://github.com/pingdotgg/t3code) | Theo Browne's AI coding agent | 4 |
-| [Editron](https://github.com/piyushdotcomm/Editron) | Browser-based IDE, 114 forks | 2 |
-| [awesome-android-apps](https://github.com/fiedri/awesome-android-apps) | Curated list of open source Android apps | 1 |
 <!-- OSS:END -->
 
 ### Recently merged
 
 <!-- PRS:START -->
 - [#32231](https://github.com/pingdotgg/t3code/pull/32231) fix(pi): the T3 MCP extension file is written atomically <sub>T3 Code · 07 Nov 2026</sub>
-- [#22](https://github.com/fiedri/awesome-android-apps/pull/22) app: add Sober in Productivity <sub>awesome-android-apps · 05 Nov 2026</sub>
 - [#9374](https://github.com/mantinedev/mantine/pull/9374) [@mantine/schedule] YearView: Fix multi-day events not showing when they start in the previous year <sub>Mantine · 04 Nov 2026</sub>
 - [#9365](https://github.com/mantinedev/mantine/pull/9365) [@mantine/charts] BarChart: Fix waterfall type mutating the data prop <sub>Mantine · 04 Nov 2026</sub>
 - [#9359](https://github.com/mantinedev/mantine/pull/9359) [@mantine/core] Combobox: Fix hidden input dropping falsy values <sub>Mantine · 04 Nov 2026</sub>
 - [#28529](https://github.com/pingdotgg/t3code/pull/28529) fix(tailscale): escalate hung serve commands to SIGKILL <sub>T3 Code · 03 Nov 2026</sub>
 - [#24772](https://github.com/pingdotgg/t3code/pull/24772) fix(forgejo): merged and closed pull request lists only return their own rows <sub>T3 Code · 01 Nov 2026</sub>
 - [#24794](https://github.com/pingdotgg/t3code/pull/24794) fix(providers): a failed provider check no longer drops later settings changes <sub>T3 Code · 30 Oct 2026</sub>
-- [#218](https://github.com/piyushdotcomm/Editron/pull/218) Fix: resolve suppressed TypeScript errors and improve type safety across core modules <sub>Editron · 20 May 2026</sub>
-- [#67](https://github.com/piyushdotcomm/Editron/pull/67) modernize playground loading with Suspense and loading.tsx <sub>Editron · 12 May 2026</sub>
 <!-- PRS:END -->
 
 ## Toolbelt
@@ -115,13 +112,13 @@ I only take pull requests against projects I would happily use myself. The list 
 <!-- STATS:START -->
 | Public repos | Stars | Merged PRs | Upstream projects | Followers |
 | --- | --- | --- | --- | --- |
-| 48 | 66 | 31 | 4 | 10 |
+| 48 | 66 | 31 | 2 | 10 |
 <!-- STATS:END -->
 
 ## Elsewhere
 
 - [Portfolio](https://www.rishabhx29.me/) · [LinkedIn](https://linkedin.com/in/rishabh-tripathi-728a77317) · [LeetCode](https://leetcode.com/u/Rishabh2903/) (100+ problems solved in C++)
-- [Resume](https://www.rishabhx29.me/resume)
+- [Resume](https://github.com/rishabhx29/rishabhx29/blob/main/resume.pdf) — opens the PDF in a new tab
 - Open to software engineering internships in backend, systems or platform work.
 
 ---
