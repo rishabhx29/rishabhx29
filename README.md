@@ -115,7 +115,7 @@ I only take pull requests against projects I would happily use myself. The table
 <!-- STATS:START -->
 | Public repos | Stars | Merged PRs | Upstream projects | Followers |
 | --- | --- | --- | --- | --- |
-| 48 | 66 | 34 | 2 | 10 |
+| 48 | 66 | 31 | 2 | 10 |
 <!-- STATS:END -->
 
 ## Elsewhere
