@@ -84,6 +84,12 @@ WATCHED = [
 
 RECENT_PRS = 10
 
+# GitHub strips target="_blank" from README links, so a link cannot be forced
+# to open in a new tab from the README itself. Every link is routed through
+# this interstitial instead: it opens the destination in a new tab and then
+# sends the reader back to the profile.
+LINK_BASE = "https://www.rishabhx29.me/go.html"
+
 
 # ---------------------------------------------------------------------------
 # GitHub API
@@ -163,12 +169,14 @@ def all_public_repos(user: str) -> list[dict]:
 
 
 def link(url: str, text: str) -> str:
-    """An anchor that opens in a new tab.
+    """An anchor that opens its destination in a new tab.
 
-    GitHub keeps target and rel on raw HTML anchors in a README, so every
-    link in the generated blocks is written this way.
+    GitHub removes target="_blank" when it renders a README, so the link
+    points at the interstitial on the portfolio site. That page opens the
+    real destination in a new tab and then returns the reader to the profile.
     """
-    return f'<a href="{url}" target="_blank" rel="noopener">{text}</a>'
+    dest = urllib.parse.quote(url, safe="")
+    return f'<a href="{LINK_BASE}?u={dest}" target="_blank" rel="noopener">{text}</a>'
 
 
 def render_projects(user: str) -> str | None:

@@ -22,11 +22,11 @@
   </picture>
 
   <p>
-    <a href="https://raw.githubusercontent.com/rishabhx29/rishabhx29/main/resume.pdf" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Resume-Open%20PDF-FFA116?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume" /></a>
-    <a href="https://www.rishabhx29.me/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Portfolio-rishabhx29.me-818CF8?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-    <a href="https://linkedin.com/in/rishabh-tripathi-728a77317" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="https://github.com/rishabhx29" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-    <a href="https://leetcode.com/u/Rishabh2903/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+    <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fwww.rishabhx29.me%2FRishabh-Tripathi-Resume.pdf" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Resume-Open%20PDF-FFA116?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume" /></a>
+    <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fwww.rishabhx29.me%2F" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Portfolio-rishabhx29.me-818CF8?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+    <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Flinkedin.com%2Fin%2Frishabh-tripathi-728a77317" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Frishabhx29" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fleetcode.com%2Fu%2FRishabh2903%2F" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
   </p>
 
 </div>
@@ -48,20 +48,20 @@ I only take pull requests against projects I would happily use myself. The table
 <!-- OSS:START -->
 | Upstream project | What it is | Merged PRs |
 | --- | --- | --- |
-| <a href="https://github.com/mantinedev/mantine" target="_blank" rel="noopener">Mantine</a> | React component library, 32k stars | 3 |
-| <a href="https://github.com/pingdotgg/t3code" target="_blank" rel="noopener">T3 Code</a> | Theo Browne's AI coding agent | 4 |
+| <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Fmantinedev%2Fmantine" target="_blank" rel="noopener">Mantine</a> | React component library, 32k stars | 3 |
+| <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Fpingdotgg%2Ft3code" target="_blank" rel="noopener">T3 Code</a> | Theo Browne's AI coding agent | 4 |
 <!-- OSS:END -->
 
 ### Recently merged
 
 <!-- PRS:START -->
-- <a href="https://github.com/pingdotgg/t3code/pull/32231" target="_blank" rel="noopener">#32231</a> fix(pi): the T3 MCP extension file is written atomically <sub>T3 Code &middot; 07 Nov 2026</sub>
-- <a href="https://github.com/mantinedev/mantine/pull/9374" target="_blank" rel="noopener">#9374</a> \[@mantine/schedule\] YearView: Fix multi-day events not showing when they start in the previous year <sub>Mantine &middot; 04 Nov 2026</sub>
-- <a href="https://github.com/mantinedev/mantine/pull/9365" target="_blank" rel="noopener">#9365</a> \[@mantine/charts\] BarChart: Fix waterfall type mutating the data prop <sub>Mantine &middot; 04 Nov 2026</sub>
-- <a href="https://github.com/mantinedev/mantine/pull/9359" target="_blank" rel="noopener">#9359</a> \[@mantine/core\] Combobox: Fix hidden input dropping falsy values <sub>Mantine &middot; 04 Nov 2026</sub>
-- <a href="https://github.com/pingdotgg/t3code/pull/28529" target="_blank" rel="noopener">#28529</a> fix(tailscale): escalate hung serve commands to SIGKILL <sub>T3 Code &middot; 03 Nov 2026</sub>
-- <a href="https://github.com/pingdotgg/t3code/pull/24772" target="_blank" rel="noopener">#24772</a> fix(forgejo): merged and closed pull request lists only return their own rows <sub>T3 Code &middot; 01 Nov 2026</sub>
-- <a href="https://github.com/pingdotgg/t3code/pull/24794" target="_blank" rel="noopener">#24794</a> fix(providers): a failed provider check no longer drops later settings changes <sub>T3 Code &middot; 30 Oct 2026</sub>
+- <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Fpingdotgg%2Ft3code%2Fpull%2F32231" target="_blank" rel="noopener">#32231</a> fix(pi): the T3 MCP extension file is written atomically <sub>T3 Code &middot; 07 Nov 2026</sub>
+- <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Fmantinedev%2Fmantine%2Fpull%2F9374" target="_blank" rel="noopener">#9374</a> \[@mantine/schedule\] YearView: Fix multi-day events not showing when they start in the previous year <sub>Mantine &middot; 04 Nov 2026</sub>
+- <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Fmantinedev%2Fmantine%2Fpull%2F9365" target="_blank" rel="noopener">#9365</a> \[@mantine/charts\] BarChart: Fix waterfall type mutating the data prop <sub>Mantine &middot; 04 Nov 2026</sub>
+- <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Fmantinedev%2Fmantine%2Fpull%2F9359" target="_blank" rel="noopener">#9359</a> \[@mantine/core\] Combobox: Fix hidden input dropping falsy values <sub>Mantine &middot; 04 Nov 2026</sub>
+- <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Fpingdotgg%2Ft3code%2Fpull%2F28529" target="_blank" rel="noopener">#28529</a> fix(tailscale): escalate hung serve commands to SIGKILL <sub>T3 Code &middot; 03 Nov 2026</sub>
+- <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Fpingdotgg%2Ft3code%2Fpull%2F24772" target="_blank" rel="noopener">#24772</a> fix(forgejo): merged and closed pull request lists only return their own rows <sub>T3 Code &middot; 01 Nov 2026</sub>
+- <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Fpingdotgg%2Ft3code%2Fpull%2F24794" target="_blank" rel="noopener">#24794</a> fix(providers): a failed provider check no longer drops later settings changes <sub>T3 Code &middot; 30 Oct 2026</sub>
 <!-- PRS:END -->
 
 ## Featured work
@@ -69,10 +69,10 @@ I only take pull requests against projects I would happily use myself. The table
 <!-- PROJECTS:START -->
 | Project | What it does | Stack | Stars |
 | --- | --- | --- | --- |
-| <a href="https://github.com/rishabhx29/tessera" target="_blank" rel="noopener">tessera</a> | Local-first search engine that OCRs and embeds every image on your machine | Rust, Tauri, ONNX Runtime, SQLite | 1 |
-| <a href="https://github.com/rishabhx29/edgemem" target="_blank" rel="noopener">edgemem</a> | Disagreement-durable edge memory engine, where a claim is an assertion and never an overwritten fact | Python, Qdrant Edge, WebSockets | 1 |
-| <a href="https://github.com/rishabhx29/Traceon" target="_blank" rel="noopener">Traceon</a> | Codebase analyzer that parses full ASTs and renders interactive dependency graphs | Next.js, TypeScript, React Flow, MongoDB | 10 |
-| <a href="https://github.com/rishabhx29/velokey" target="_blank" rel="noopener">velokey</a> | Real-time multiplayer typing races over WebSockets, with server-side anti-cheat | Next.js, TypeScript, PartyKit, Web Audio | 1 |
+| <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Frishabhx29%2Ftessera" target="_blank" rel="noopener">tessera</a> | Local-first search engine that OCRs and embeds every image on your machine | Rust, Tauri, ONNX Runtime, SQLite | 1 |
+| <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Frishabhx29%2Fedgemem" target="_blank" rel="noopener">edgemem</a> | Disagreement-durable edge memory engine, where a claim is an assertion and never an overwritten fact | Python, Qdrant Edge, WebSockets | 1 |
+| <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Frishabhx29%2FTraceon" target="_blank" rel="noopener">Traceon</a> | Codebase analyzer that parses full ASTs and renders interactive dependency graphs | Next.js, TypeScript, React Flow, MongoDB | 10 |
+| <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Frishabhx29%2Fvelokey" target="_blank" rel="noopener">velokey</a> | Real-time multiplayer typing races over WebSockets, with server-side anti-cheat | Next.js, TypeScript, PartyKit, Web Audio | 1 |
 <!-- PROJECTS:END -->
 
 ## Toolbelt
@@ -115,16 +115,16 @@ I only take pull requests against projects I would happily use myself. The table
 <!-- STATS:START -->
 | Public repos | Stars | Merged PRs | Upstream projects | Followers |
 | --- | --- | --- | --- | --- |
-| 48 | 66 | 31 | 2 | 10 |
+| 48 | 66 | 34 | 2 | 10 |
 <!-- STATS:END -->
 
 ## Elsewhere
 
-- <a href="https://www.rishabhx29.me/" target="_blank" rel="noopener">Portfolio</a> &middot; <a href="https://linkedin.com/in/rishabh-tripathi-728a77317" target="_blank" rel="noopener">LinkedIn</a> &middot; <a href="https://leetcode.com/u/Rishabh2903/" target="_blank" rel="noopener">LeetCode</a> (100+ problems solved in C++)
-- <a href="https://raw.githubusercontent.com/rishabhx29/rishabhx29/main/resume.pdf" target="_blank" rel="noopener">Resume</a> &mdash; downloads and opens in a new tab
+- <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fwww.rishabhx29.me%2F" target="_blank" rel="noopener">Portfolio</a> &middot; <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Flinkedin.com%2Fin%2Frishabh-tripathi-728a77317" target="_blank" rel="noopener">LinkedIn</a> &middot; <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fleetcode.com%2Fu%2FRishabh2903%2F" target="_blank" rel="noopener">LeetCode</a> (100+ problems solved in C++)
+- <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fwww.rishabhx29.me%2FRishabh-Tripathi-Resume.pdf" target="_blank" rel="noopener">Resume</a> &mdash; opens the PDF in a new tab
 
 ---
 
 <div align="center">
-  <sub>Built by <a href="https://github.com/rishabhx29" target="_blank" rel="noopener">Rishabh Tripathi</a> &middot; this README refreshes itself</sub>
+  <sub>Built by <a href="https://www.rishabhx29.me/go.html?u=https%3A%2F%2Fgithub.com%2Frishabhx29" target="_blank" rel="noopener">Rishabh Tripathi</a> &middot; this README refreshes itself</sub>
 </div>
