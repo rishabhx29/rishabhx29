@@ -23,10 +23,12 @@ Run by .github/workflows/update-profile.yml. Local dry run:
 from __future__ import annotations
 
 import argparse
+import http.client
 import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -88,8 +90,13 @@ RECENT_PRS = 10
 # ---------------------------------------------------------------------------
 
 
-def api_get(path: str, params: dict | None = None) -> dict | list | None:
-    """GET a GitHub API path. Returns None on any failure, never raises."""
+def api_get(path: str, params: dict | None = None, attempts: int = 3) -> dict | list | None:
+    """GET a GitHub API path. Returns None on any failure, never raises.
+
+    A single flaky connection must not take the whole run down, so transport
+    errors are retried a few times and then reported as "no data" rather than
+    as a crash. The caller keeps the previous block content in that case.
+    """
     url = f"{API}{path}"
     if params:
         url += "?" + urllib.parse.urlencode(params)
@@ -100,13 +107,27 @@ def api_get(path: str, params: dict | None = None) -> dict | list | None:
     }
     if TOKEN:
         headers["Authorization"] = f"Bearer {TOKEN}"
-    try:
-        request = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(request, timeout=30) as response:
-            return json.loads(response.read().decode("utf-8"))
-    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
-        print(f"  ! GET {path} failed: {exc}", file=sys.stderr)
-        return None
+
+    last_error: Exception | None = None
+    for attempt in range(1, attempts + 1):
+        try:
+            request = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(request, timeout=30) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except (urllib.error.HTTPError, urllib.error.URLError) as exc:
+            last_error = exc
+            # A rate limit or a server error is worth another try; a 404 or
+            # 401 will not become a 200 on the next attempt.
+            status = getattr(exc, "code", None)
+            if status and status not in (403, 429, 500, 502, 503, 504):
+                break
+        except (OSError, http.client.HTTPException, TimeoutError, json.JSONDecodeError) as exc:
+            last_error = exc
+        if attempt < attempts:
+            time.sleep(2 * attempt)
+
+    print(f"  ! GET {path} failed: {last_error}", file=sys.stderr)
+    return None
 
 
 def repo_stats(owner: str, repo: str) -> dict | None:
@@ -141,6 +162,15 @@ def all_public_repos(user: str) -> list[dict]:
 # ---------------------------------------------------------------------------
 
 
+def link(url: str, text: str) -> str:
+    """An anchor that opens in a new tab.
+
+    GitHub keeps target and rel on raw HTML anchors in a README, so every
+    link in the generated blocks is written this way.
+    """
+    return f'<a href="{url}" target="_blank" rel="noopener">{text}</a>'
+
+
 def render_projects(user: str) -> str | None:
     rows = []
     for entry in FEATURED:
@@ -148,8 +178,9 @@ def render_projects(user: str) -> str | None:
         if stats is None:
             return None
         stars = stats.get("stargazers_count", 0)
+        url = f"https://github.com/{user}/{entry['repo']}"
         rows.append(
-            f'| [{entry["repo"]}](https://github.com/{user}/{entry["repo"]}) '
+            f'| {link(url, entry["repo"])} '
             f'| {entry["blurb"]} '
             f'| {entry["stack"]} '
             f'| {stars} |'
@@ -164,8 +195,9 @@ def render_oss(user: str) -> str | None:
         count = merged_pr_count(f"author:{user} type:pr is:merged repo:{entry['repo']}")
         if count < 0:
             return None
+        url = f"https://github.com/{entry['repo']}"
         rows.append(
-            f'| [{entry["label"]}](https://github.com/{entry["repo"]}) '
+            f'| {link(url, entry["label"])} '
             f'| {entry["note"]} '
             f'| {count} |'
         )
@@ -202,10 +234,10 @@ def render_recent_prs(user: str) -> str | None:
     for pr in collected[:RECENT_PRS]:
         when = datetime.fromisoformat(pr["merged_at"].replace("Z", "+00:00")).astimezone(timezone.utc)
         stamp = when.strftime("%d %b %Y")
-        title = pr["title"].replace("|", "\\|")
+        title = pr["title"].replace("|", "\\|").replace("[", "\\[").replace("]", "\\]")
         lines.append(
-            f'- [#{pr["number"]}]({pr["url"]}) {title} '
-            f'<sub>{pr["label"]} · {stamp}</sub>'
+            f'- {link(pr["url"], "#" + str(pr["number"]))} {title} '
+            f'<sub>{pr["label"]} &middot; {stamp}</sub>'
         )
     return "\n".join(lines)
 
@@ -270,7 +302,11 @@ def main() -> int:
 
     updated = readme
     for name, renderer in BLOCKS.items():
-        content = renderer(USER)
+        try:
+            content = renderer(USER)
+        except Exception as exc:  # never let one block take the run down
+            print(f"  ! {name}: {exc}", file=sys.stderr)
+            content = None
         if content is None:
             print(f"  = {name}: keeping the previous content (API unavailable)")
             continue
